@@ -2,7 +2,7 @@ public class Plant {
     // How long do we want to run the juice processing
     public static final long PROCESSING_TIME = 5 * 1000;
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         // Startup a single plant
         Plant p = new Plant();
 
@@ -18,7 +18,7 @@ public class Plant {
         System.out.println("Total provided/processed = " + provided + "/" + p.getProcessedOranges());
         System.out.println("Created " + p.getBottles() +
                            ", wasted " + p.getWaste() + " oranges");
-    }
+    }*/
 
     public final int ORANGES_PER_BOTTLE = 4;
 
